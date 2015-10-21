@@ -1,4 +1,4 @@
-# checklink [![Build Status](https://travis-ci.org/imsobear/checklink.svg?branch=master)](https://travis-ci.org/imsobear/checklink)
+# checklink [![Build Status](https://travis-ci.org/imsobear/checklink.svg?branch=master)](https://travis-ci.org/imsobear/checklink) [![Coverage Status](https://coveralls.io/repos/imsobear/checklink/badge.svg?branch=master)](https://coveralls.io/r/imsobear/checklink?branch=master)
 
 > check deadlink by nodejs.
 
