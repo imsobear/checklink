@@ -4,8 +4,8 @@
   "description": "check deadlinks by nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "DEBUG=checklink ./node_modules/.bin/mocha --timeout 10000 index.test.js",
-    "test-cov": "DEBUG=checklink ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -u exports --timeout 5000 index.test.js"
+    "test": "DEBUG=checklink ./node_modules/.bin/mocha --timeout 20000 index.test.js",
+    "test-cov": "DEBUG=checklink ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- -u exports --timeout 20000 index.test.js"
   },
   "keywords": [
     "deadlink",

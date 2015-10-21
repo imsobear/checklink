@@ -4,7 +4,7 @@ var checklink = require('./');
 
 describe('checklink index.js', function() {
 
-  it('should return true when url is taobao.com', function(done) {
+  it('result.isPassed should equal true when url is taobao.com', function(done) {
 
     checklink('https://taobao.com')
       .then(function(result) {
@@ -14,7 +14,7 @@ describe('checklink index.js', function() {
 
   });
 
-  it('should return false when url is xxxhhhhhh.com', function(done) {
+  it('result.isPassed should equal false when url is xxxhhhhhh.com', function(done) {
 
     checklink('http://xxxhhhhhh.com')
       .then(function(result) {
@@ -24,7 +24,7 @@ describe('checklink index.js', function() {
 
   });
 
-  it('should return array when url is array', function(done) {
+  it('result.deadlinks.length should equal 2 when urls is array and have two deadlinks', function(done) {
 
     checklink(['http://baidu.com', 'https://taobao.com', 'xxxxxxxx', 'hxhxhhxhx.com.cn'])
       .then(function(result) {
